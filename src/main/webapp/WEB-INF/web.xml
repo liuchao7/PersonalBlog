@@ -69,6 +69,7 @@
         <servlet-name>springMVC</servlet-name>
         <url-pattern>*.do</url-pattern>
     </servlet-mapping>
+    <!-- 伪静态 -->
 	<servlet-mapping>
 		<servlet-name>springMVC</servlet-name>
 		<url-pattern>*.html</url-pattern>
