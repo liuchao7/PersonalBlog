@@ -32,4 +32,18 @@ public interface CommentService {
 	 * @return
 	 */
 	public Long getTotal(Map<String,Object> map);
+	
+	/**
+	 * 修改评论
+	 * @param comment
+	 * @return
+	 */
+	public int update(Comment comment);
+	
+	/**
+	 * 删除博客类别信息
+	 * @param id
+	 * @return
+	 */
+	public Integer delete(Integer id);
 }
